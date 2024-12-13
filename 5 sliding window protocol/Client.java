@@ -8,7 +8,7 @@ public class Client {
         int windowSize = 8;
 
         // Message to send
-        String message = "Hello";
+        String message = "Hi";
         byte[] data = message.getBytes();
 
         int base = 0;

@@ -37,6 +37,7 @@ public class BellmanFord {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        
         System.out.print("Enter the number of vertices: ");
         int ver = sc.nextInt();
         int[][] adj = new int[ver + 1][ver + 1];
